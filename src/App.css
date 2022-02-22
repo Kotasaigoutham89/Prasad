@@ -97,4 +97,31 @@ justify-content: center;
 .content_matter{
   color:#1D536F
 }
+.back-button{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+}
 
+.two-boxes{
+  display: flex;
+  justify-content: space-evenly;
+  margin:100px;
+}
+.first-boxes{
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width:20%;
+  height:75px;
+  background-color: rgb(239,239,239);
+  border:2.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-text{
+  font-size: x-large;
+  font-weight: 400;
+}
