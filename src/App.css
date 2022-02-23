@@ -125,3 +125,12 @@ justify-content: center;
   font-size: x-large;
   font-weight: 400;
 }
+.course-container{
+  display: flex;
+  justify-content: center;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  margin:50px;
+}
