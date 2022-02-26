@@ -27,6 +27,16 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+.participation-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(8,48,83);
+  display: flex;
+  justify-content: space-between;
+
+}
 
 
 li a {
@@ -167,4 +177,22 @@ justify-content: center;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+}
+.welcome-text{
+  font-size: 40px;
+  font-weight: bolder;
+  color:rgb(204,204,204)
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 10%;
+}
+td, th {
+  border: 2px solid green;
+  text-align: left;
+  padding: 8px;
+}
+td:hover {
+  background-color:rgb(8,48,83);
 }
