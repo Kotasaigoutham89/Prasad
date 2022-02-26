@@ -80,7 +80,7 @@ function Register() {
                     </div>
 
                     <div className='submit-button'>
-                        <Link to="/Prasad" style={{  textDecoration: "none"}}>
+                        <Link to="/IHAPS" style={{  textDecoration: "none"}}>
                             <Button variant="contained" style={{ height: 50, width: "200%" }}>
                                 Submit
                             </Button>

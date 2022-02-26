@@ -16,7 +16,7 @@ import "./App.css";
 const RoutesApp = () => {
   return (
       <Routes>
-        <Route path="/Prasad"  element={<Home/>}/>
+        <Route path="/IHAPS"  element={<Home/>}/>
         <Route path="/WorkGroups" element={<WorkGroups/>}/>
         <Route path="/Curriculum" element={<Curriculum/>}/>
         <Route path="/Academiccourse"  element={<Academiccourse/>}/>
