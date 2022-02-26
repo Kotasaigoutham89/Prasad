@@ -98,7 +98,7 @@ function Academiccourse() {
                             </div>
                         </div>
                         <div className='submit-button'>
-                        <Link to="/IHAPS" style={{  textDecoration: "none"}}>
+                        <Link to="/" style={{  textDecoration: "none"}}>
                             <Button variant="contained" style={{height:50,width:"200%"}}>
                                 Submit
                             </Button>

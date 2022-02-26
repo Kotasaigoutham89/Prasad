@@ -16,7 +16,7 @@ function Participation() {
             <div className='second_section'>
                 <ul className='participation-bar'>
                     <li>
-                        <Link to="/IHAPS">
+                        <Link to="/">
                             <Button variant="contained" startIcon={<KeyboardArrowLeftIcon />}>
                                 Home
                             </Button>
