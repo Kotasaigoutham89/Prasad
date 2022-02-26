@@ -103,7 +103,7 @@ function Appliedstudentlearning() {
                         </div>
                         
                         <div className='submit-button'>
-                            <Link to="/Prasad">
+                            <Link to="/Prasad" style={{  textDecoration: "none"}}>
                                 <Button variant="contained" style={{ height: 50, width: "200%" }}>
                                     Submit
                                 </Button>

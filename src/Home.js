@@ -7,6 +7,9 @@ import  Environmental from "./images/Environmental.png"
 
 
 function Home() {
+  const handleClick=()=>{
+    window.open("https://www.uhcl.edu/sustainability/about/")
+  }
   const content=[
     {
       heading:"Social",
@@ -33,10 +36,9 @@ function Home() {
       <div className='second_section'>
         <ul>
          <Link to ="/" style={{  textDecoration: "none"}} ><li><a>Home</a></li></Link>
-         <Link to ="/WorkGroups" style={{  textDecoration: "none"}}> <li><a>Work Groups</a></li></Link>
+         <Link to ="/Participation" style={{  textDecoration: "none"}}> <li><a>Participation</a></li></Link>
           <li><a >Reports and Data</a></li>
-          <li><a >Login/Sign Up</a></li>
-          <li><a >About Us</a></li>
+          <li><a onClick={handleClick}>About Us</a></li>
         </ul>
       </div>
       <div className="main-content">

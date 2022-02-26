@@ -177,6 +177,8 @@ justify-content: center;
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+  margin-right: 80px;
+  text-decoration: none;
 }
 .welcome-text{
   font-size: 40px;
@@ -186,13 +188,42 @@ justify-content: center;
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 10%;
+  width: 100px;
 }
 td, th {
   border: 2px solid green;
   text-align: left;
   padding: 8px;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  width:300px
+
 }
 td:hover {
   background-color:rgb(8,48,83);
+}
+.course-container-login{
+  display: flex;
+  justify-content:space-between;
+  background-color: rgb(223,246,221);
+  margin-right: 100px;
+}
+.input-name-small{
+  font-size: large;
+  display: inline-block;
+  width: 200px;
+}
+.participation-contents{
+  display: flex;
+  flex-direction: row;
+}
+.participation-text{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width:70%;
+font-size: xx-large;
+font-style: italic;
+font-weight: 500;
 }

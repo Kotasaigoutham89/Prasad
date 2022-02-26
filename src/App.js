@@ -9,6 +9,8 @@ import Academiccourse from "./Academiccourse";
 import Academicprograms from "./Academicprograms";
 import Appliedstudentlearning from "./Appliedstudentlearning";
 import Participation from './Participation'
+import Login from "./Login"
+import Register from "./Register"
 import "./App.css";
 
 const RoutesApp = () => {
@@ -21,6 +23,8 @@ const RoutesApp = () => {
         <Route path="/Academicprograms" element={<Academicprograms/>}/>
         <Route path="/Appliedstudentlearning" element={<Appliedstudentlearning/>}/>
         <Route path="/Participation" element={<Participation/>}/>
+        <Route path="/Login" element={<Login/>}/>
+        <Route path="/Register" element={<Register/>}/>
       </Routes>
   )
 }

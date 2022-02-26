@@ -26,22 +26,30 @@ function Participation() {
                     <li className='visibility'>dskfasdkf</li>
                 </ul>
             </div>
-            <div>
-                <table>
-                    <tr>
-                        <th>Company</th>
-                    </tr>
-                    <tr>
-                        <td>Register</td>
-                    </tr>
-                    <tr>
-                        <td>Login</td>
-                    </tr>
+            <div className='participation-contents'>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Participation</th>
+                        </tr>
+                        <tr>
+                            <Link to="/Register">
+                                <td>Register</td>
+                            </Link>
+                        </tr>
+                        <tr>
+                            <Link to="/Login">
+                                <td>Login</td>
+                            </Link>
+                        </tr>
 
-                </table>
+                    </table>
+                </div>
+                <div className='participation-text'>
+                    Participation in IHAPS  involves collecting information about our institution’s sustainability initiatives and performance, documenting that information in standard format, and submitting a report to AASHE to earn public recognition.
+                </div>
             </div>
         </div>
     );
 }
-
 export default Participation;
