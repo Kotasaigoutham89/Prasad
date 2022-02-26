@@ -128,7 +128,7 @@ justify-content: center;
 .course-container{
   display: flex;
   justify-content:center;
-
+  background-color: rgb(223,246,221);
 }
 .items{
   display: flex;
@@ -143,13 +143,22 @@ justify-content: center;
   justify-content: center;
   font-size: xx-large;
   font-weight: 600;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .input-name{
   font-size: large;
   display: inline-block;
- 
   width: 250px;
+}
+.input-name-large{
+  font-size: large;
+  display: inline-block;
+  width: 400px;
+}
+.input-name-extra-large{
+  font-size: large;
+  display: inline-block;
+  width: 550px;
 }
 .input-text{
   margin:0px 0px 0px 30px;
@@ -157,5 +166,5 @@ justify-content: center;
 .submit-button{
   display: flex;
   justify-content: center;
-
+  margin-bottom: 40px;
 }

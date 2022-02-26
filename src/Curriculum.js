@@ -23,7 +23,7 @@ function Curriculum() {
                       
                       
                         <div className='box'>
-                        <Link to="/Academicprograms "  style={{  textDecoration: "none"}}>
+                        <Link to="/Appliedstudentlearning "  style={{  textDecoration: "none"}}>
                             <div className='box-text'> Appiled Student Learning</div>
                             </Link>
                         </div>
@@ -32,7 +32,7 @@ function Curriculum() {
                     <div className="first-boxes">
                       
                         <div className='box'>
-                        <Link to="/Appliedstudentlearning"  style={{  textDecoration: "none"}}>
+                        <Link to="/Academicprograms"  style={{  textDecoration: "none"}}>
                             <div className='box-text'> Academic Programs</div>
                             </Link>
 
