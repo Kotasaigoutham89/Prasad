@@ -1,5 +1,9 @@
 import './App.css';
 import {Link} from "react-router-dom";
+import  Homeimage from "./images/homepageimage.png";
+import  Economic from "./images/Economic.png"
+import  Environmental from "./images/Environmental.png"
+
 
 
 function Home() {
@@ -24,7 +28,7 @@ function Home() {
   return (
     <div className="main_container">
       <div className='first_section'>
-        <img src="./homepageimage.png" target="blank" className='homepageimage' />
+        <img src={Homeimage} target="blank" className='homepageimage' />
       </div>
       <div className='second_section'>
         <ul>
@@ -53,10 +57,10 @@ function Home() {
          The Four Dimensions of Sustainability
           </div>
           <div className='center-images'>
-            <img src="./Economic.png" target="blank" className='center-image-width' />
-            <img src="./Environmental.png" target="blank"  className='center-image-width'/>
-            <img src="./Economic.png" target="blank"  className='center-image-width'/>
-            <img src="./Environmental.png" target="blank"  className='center-image-width'/>
+            <img src={Economic} target="blank" className='center-image-width' />
+            <img src={Environmental} target="blank"  className='center-image-width'/>
+            <img src={Economic} target="blank" className='center-image-width' />
+            <img src={Environmental} target="blank"  className='center-image-width'/>
           </div>
         </div>
         <div className='fifth-section'>

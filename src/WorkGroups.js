@@ -19,7 +19,7 @@ function WorkGroups() {
         <div className="back-button">
           <Link to="/">
         <Button variant="contained" startIcon={<KeyboardArrowLeftIcon />} >
-        Delete
+        Back
       </Button>
       </Link>
         </div>

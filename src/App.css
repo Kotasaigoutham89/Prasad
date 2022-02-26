@@ -127,10 +127,35 @@ justify-content: center;
 }
 .course-container{
   display: flex;
-  justify-content: center;
+  justify-content:center;
+
 }
 .items{
   display: flex;
   flex-direction: row;
   margin:50px;
+}
+.visibility{
+  visibility: hidden;
+}
+.course-heading{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 600;
+  margin-top: 70px;
+}
+.input-name{
+  font-size: large;
+  display: inline-block;
+ 
+  width: 250px;
+}
+.input-text{
+  margin:0px 0px 0px 30px;
+}
+.submit-button{
+  display: flex;
+  justify-content: center;
+
 }
