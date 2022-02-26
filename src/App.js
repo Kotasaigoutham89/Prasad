@@ -12,6 +12,7 @@ import Participation from './Participation'
 import Login from "./Login"
 import Register from "./Register"
 import "./App.css";
+import Workgroupsreport from "./Workgroupsreport"
 
 const RoutesApp = () => {
   return (
@@ -25,6 +26,8 @@ const RoutesApp = () => {
         <Route path="/Participation" element={<Participation/>}/>
         <Route path="/Login" element={<Login/>}/>
         <Route path="/Register" element={<Register/>}/>
+        <Route path="/Workgroupsreport" element={<Workgroupsreport/>}/>
+
       </Routes>
   )
 }

@@ -227,3 +227,33 @@ font-size: xx-large;
 font-style: italic;
 font-weight: 500;
 }
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 50;
+  left: 0;
+  background-color: rgb(8,48,83);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 15px 15px 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

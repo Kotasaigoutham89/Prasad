@@ -37,7 +37,7 @@ function Home() {
         <ul>
          <Link to ="/" style={{  textDecoration: "none"}} ><li><a>Home</a></li></Link>
          <Link to ="/Participation" style={{  textDecoration: "none"}}> <li><a>Participation</a></li></Link>
-          <li><a >Reports and Data</a></li>
+          <Link to="/Workgroupsreport"  style={{  textDecoration: "none"}}><li><a >Reports and Data</a></li></Link>
           <li><a onClick={handleClick}>About Us</a></li>
         </ul>
       </div>
